@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EECEE656B4181021906DDD9 /* Pods_RadioButtonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D9C283A910C4F9C99C361C /* Pods_RadioButtonView.framework */; };
+		A9E7F705224FC587008B2A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F704224FC587008B2A41 /* AppDelegate.swift */; };
+		A9E7F707224FC587008B2A41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F706224FC587008B2A41 /* ViewController.swift */; };
+		A9E7F70A224FC587008B2A41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E7F708224FC587008B2A41 /* Main.storyboard */; };
+		A9E7F70D224FC587008B2A41 /* RadioButtonView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F70B224FC587008B2A41 /* RadioButtonView.xcdatamodeld */; };
+		A9E7F70F224FC588008B2A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E7F70E224FC588008B2A41 /* Assets.xcassets */; };
+		A9E7F712224FC588008B2A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E7F710224FC588008B2A41 /* LaunchScreen.storyboard */; };
+		A9E7F71A224FC8DE008B2A41 /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F719224FC8DE008B2A41 /* RadioButtonView.swift */; };
+		A9E7F71C2251020F008B2A41 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F71B2251020F008B2A41 /* ViewController+Extension.swift */; };
+		A9E7F71E2251029A008B2A41 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F71D2251029A008B2A41 /* TagCollectionViewCell.swift */; };
+		A9E7F7202251187A008B2A41 /* AGCustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F71F2251187A008B2A41 /* AGCustomFlowLayout.swift */; };
+		A9E7F722225142DF008B2A41 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7F721225142DF008B2A41 /* AlignedCollectionViewFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A07B4C98C4282EB02CE9D83 /* Pods-RadioButtonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioButtonView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioButtonView/Pods-RadioButtonView.debug.xcconfig"; sourceTree = "<group>"; };
+		25D9C283A910C4F9C99C361C /* Pods_RadioButtonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioButtonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D591BEE86D9BC6FE65538C /* Pods-RadioButtonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioButtonView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioButtonView/Pods-RadioButtonView.release.xcconfig"; sourceTree = "<group>"; };
+		A9E7F701224FC587008B2A41 /* RadioButtonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioButtonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E7F704224FC587008B2A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9E7F706224FC587008B2A41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9E7F709224FC587008B2A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E7F70C224FC587008B2A41 /* RadioButtonView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioButtonView.xcdatamodel; sourceTree = "<group>"; };
+		A9E7F70E224FC588008B2A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E7F711224FC588008B2A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9E7F713224FC588008B2A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E7F719224FC8DE008B2A41 /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
+		A9E7F71B2251020F008B2A41 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		A9E7F71D2251029A008B2A41 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9E7F71F2251187A008B2A41 /* AGCustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGCustomFlowLayout.swift; sourceTree = "<group>"; };
+		A9E7F721225142DF008B2A41 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E7F6FE224FC587008B2A41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EECEE656B4181021906DDD9 /* Pods_RadioButtonView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9E7F6F8224FC587008B2A41 = {
+			isa = PBXGroup;
+			children = (
+				A9E7F703224FC587008B2A41 /* RadioButtonView */,
+				A9E7F702224FC587008B2A41 /* Products */,
+				FE9C634DCB7AD3E5402585F7 /* Pods */,
+				B536869467A69D1F017A6281 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E7F702224FC587008B2A41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7F701224FC587008B2A41 /* RadioButtonView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E7F703224FC587008B2A41 /* RadioButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7F719224FC8DE008B2A41 /* RadioButtonView.swift */,
+				A9E7F704224FC587008B2A41 /* AppDelegate.swift */,
+				A9E7F706224FC587008B2A41 /* ViewController.swift */,
+				A9E7F708224FC587008B2A41 /* Main.storyboard */,
+				A9E7F70E224FC588008B2A41 /* Assets.xcassets */,
+				A9E7F710224FC588008B2A41 /* LaunchScreen.storyboard */,
+				A9E7F713224FC588008B2A41 /* Info.plist */,
+				A9E7F70B224FC587008B2A41 /* RadioButtonView.xcdatamodeld */,
+				A9E7F71B2251020F008B2A41 /* ViewController+Extension.swift */,
+				A9E7F71D2251029A008B2A41 /* TagCollectionViewCell.swift */,
+				A9E7F71F2251187A008B2A41 /* AGCustomFlowLayout.swift */,
+				A9E7F721225142DF008B2A41 /* AlignedCollectionViewFlowLayout.swift */,
+			);
+			path = RadioButtonView;
+			sourceTree = "<group>";
+		};
+		B536869467A69D1F017A6281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D9C283A910C4F9C99C361C /* Pods_RadioButtonView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9C634DCB7AD3E5402585F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A07B4C98C4282EB02CE9D83 /* Pods-RadioButtonView.debug.xcconfig */,
+				68D591BEE86D9BC6FE65538C /* Pods-RadioButtonView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E7F700224FC587008B2A41 /* RadioButtonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E7F716224FC588008B2A41 /* Build configuration list for PBXNativeTarget "RadioButtonView" */;
+			buildPhases = (
+				B9C8107850A1FFE76C219397 /* [CP] Check Pods Manifest.lock */,
+				A9E7F6FD224FC587008B2A41 /* Sources */,
+				A9E7F6FE224FC587008B2A41 /* Frameworks */,
+				A9E7F6FF224FC587008B2A41 /* Resources */,
+				5AB7DA4A2055CF7D5694E8B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioButtonView;
+			productName = RadioButtonView;
+			productReference = A9E7F701224FC587008B2A41 /* RadioButtonView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E7F6F9224FC587008B2A41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ankit Gupta";
+				TargetAttributes = {
+					A9E7F700224FC587008B2A41 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A9E7F6FC224FC587008B2A41 /* Build configuration list for PBXProject "RadioButtonView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E7F6F8224FC587008B2A41;
+			productRefGroup = A9E7F702224FC587008B2A41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E7F700224FC587008B2A41 /* RadioButtonView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E7F6FF224FC587008B2A41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E7F712224FC588008B2A41 /* LaunchScreen.storyboard in Resources */,
+				A9E7F70F224FC588008B2A41 /* Assets.xcassets in Resources */,
+				A9E7F70A224FC587008B2A41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB7DA4A2055CF7D5694E8B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RadioButtonView/Pods-RadioButtonView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TTGTagCollectionView/TTGTagCollectionView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGTagCollectionView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioButtonView/Pods-RadioButtonView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C8107850A1FFE76C219397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioButtonView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E7F6FD224FC587008B2A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E7F707224FC587008B2A41 /* ViewController.swift in Sources */,
+				A9E7F722225142DF008B2A41 /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				A9E7F70D224FC587008B2A41 /* RadioButtonView.xcdatamodeld in Sources */,
+				A9E7F71A224FC8DE008B2A41 /* RadioButtonView.swift in Sources */,
+				A9E7F71E2251029A008B2A41 /* TagCollectionViewCell.swift in Sources */,
+				A9E7F71C2251020F008B2A41 /* ViewController+Extension.swift in Sources */,
+				A9E7F7202251187A008B2A41 /* AGCustomFlowLayout.swift in Sources */,
+				A9E7F705224FC587008B2A41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9E7F708224FC587008B2A41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E7F709224FC587008B2A41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E7F710224FC588008B2A41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E7F711224FC588008B2A41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E7F714224FC588008B2A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E7F715224FC588008B2A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E7F717224FC588008B2A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A07B4C98C4282EB02CE9D83 /* Pods-RadioButtonView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFMZACSVSN;
+				INFOPLIST_FILE = RadioButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit-dev.RadioButtonView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9E7F718224FC588008B2A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D591BEE86D9BC6FE65538C /* Pods-RadioButtonView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFMZACSVSN;
+				INFOPLIST_FILE = RadioButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit-dev.RadioButtonView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E7F6FC224FC587008B2A41 /* Build configuration list for PBXProject "RadioButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E7F714224FC588008B2A41 /* Debug */,
+				A9E7F715224FC588008B2A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E7F716224FC588008B2A41 /* Build configuration list for PBXNativeTarget "RadioButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E7F717224FC588008B2A41 /* Debug */,
+				A9E7F718224FC588008B2A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9E7F70B224FC587008B2A41 /* RadioButtonView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9E7F70C224FC587008B2A41 /* RadioButtonView.xcdatamodel */,
+			);
+			currentVersion = A9E7F70C224FC587008B2A41 /* RadioButtonView.xcdatamodel */;
+			path = RadioButtonView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9E7F6F9224FC587008B2A41 /* Project object */;
+}

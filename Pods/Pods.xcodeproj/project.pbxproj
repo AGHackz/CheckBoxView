@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39EA2780242C2522C58A5C1634E3FA3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F30AC474C0BB07912EAEBE3E8624932 /* TTGTagCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41183B675F22D61C23EAAEACBDC672FE /* TTGTagCollectionView-dummy.m */; };
+		474A1FA61E2509BB0C33A85C6949212D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		51DE1D425F4F532393B3299BAA052633 /* TTGTextTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DEF57960C98EDA01DE904D64F07B9A /* TTGTextTagCollectionView.m */; };
+		6A86C190B67F0B3AFF46E5EA4F44FE4D /* TTGTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC3DD5683AB9047AA59F8DD087DCDA9 /* TTGTagCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB46252907085E10AD31F0D18C69D29 /* Pods-RadioButtonView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0FDD0EA83EE1D307CADB8A30F1CC66 /* Pods-RadioButtonView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3956002614DDB33337186687E06463C /* TTGTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE97FE929C088810115D6D96C473E5 /* TTGTagCollectionView.m */; };
+		C0AAAE82E47F1F9A2C66667B340D307E /* TTGTagCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72875CA1A4E1507624F639A57401DBF /* TTGTagCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1EA4CFCE0460D88DBCC4E63542C6E46 /* TTGTextTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F40D9F195A1F36646E534F6840D04BC /* TTGTextTagCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA440C606F05458849B00CBCD2EB1208 /* Pods-RadioButtonView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB47B96FD56F43662AB26E14B5375DD /* Pods-RadioButtonView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1D72C64A94FED61A51156E24D4C919B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66CA0E29EE808F1994685CD1CE605E7;
+			remoteInfo = TTGTagCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		196FC76504E68E687B982375096267D6 /* TTGTagCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTGTagCollectionView.modulemap; sourceTree = "<group>"; };
+		2446212A7EC1332BC81D993567EA63FB /* TTGTagCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGTagCollectionView.xcconfig; sourceTree = "<group>"; };
+		2AC737C6909D0272D037C9AACBC80474 /* Pods-RadioButtonView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RadioButtonView-frameworks.sh"; sourceTree = "<group>"; };
+		2F40D9F195A1F36646E534F6840D04BC /* TTGTextTagCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTagCollectionView.h; path = TTGTagCollectionView/Classes/TTGTextTagCollectionView.h; sourceTree = "<group>"; };
+		41183B675F22D61C23EAAEACBDC672FE /* TTGTagCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTGTagCollectionView-dummy.m"; sourceTree = "<group>"; };
+		4928C393C52EB24CADDF51B4EF427324 /* Pods-RadioButtonView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadioButtonView-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BC3DD5683AB9047AA59F8DD087DCDA9 /* TTGTagCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTagCollectionView.h; path = TTGTagCollectionView/Classes/TTGTagCollectionView.h; sourceTree = "<group>"; };
+		4C48AD050F3B98FD9D6893249C1D055A /* Pods-RadioButtonView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadioButtonView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58DEF57960C98EDA01DE904D64F07B9A /* TTGTextTagCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTagCollectionView.m; path = TTGTagCollectionView/Classes/TTGTextTagCollectionView.m; sourceTree = "<group>"; };
+		5C5671EF95DA192763BAD9EFFAA0C859 /* Pods-RadioButtonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioButtonView.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A88D08E57A08132E301B6EC3406E114 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71194F720D0A60642D1D0257F877BF40 /* Pods-RadioButtonView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadioButtonView.modulemap"; sourceTree = "<group>"; };
+		7EDE97FE929C088810115D6D96C473E5 /* TTGTagCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTagCollectionView.m; path = TTGTagCollectionView/Classes/TTGTagCollectionView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACE95EB47F97FD5AA2FE1E720F3C4C45 /* TTGTagCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTGTagCollectionView.framework; path = TTGTagCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80005BF7E10A2A3C44704C72472EBD4 /* Pods_RadioButtonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadioButtonView.framework; path = "Pods-RadioButtonView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8488C96FE11BDAB0F6EB1CA17F6819 /* Pods-RadioButtonView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RadioButtonView-resources.sh"; sourceTree = "<group>"; };
+		E231010EAFFEBBE2FD83990C79D3DB37 /* Pods-RadioButtonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioButtonView.debug.xcconfig"; sourceTree = "<group>"; };
+		E72875CA1A4E1507624F639A57401DBF /* TTGTagCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGTagCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		EA4AC4C5446E791B9BBD96A3A45B260E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0FDD0EA83EE1D307CADB8A30F1CC66 /* Pods-RadioButtonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadioButtonView-umbrella.h"; sourceTree = "<group>"; };
+		FB313A8A7E656EE9FDDE926E2CE8BA41 /* TTGTagCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGTagCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		FDB47B96FD56F43662AB26E14B5375DD /* Pods-RadioButtonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadioButtonView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D370198D0B5F7383F39BC7C9F75EDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474A1FA61E2509BB0C33A85C6949212D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583305BBEDE403B70507751E822EFEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EA2780242C2522C58A5C1634E3FA3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8D84B836E2823EDBF31D8ED467090B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB571E0409080693AF11929C86806CB6 /* Pods-RadioButtonView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9F6260144B05B79EFA1C95A14BB6A7B /* Pods */,
+				D57D44B2AEAEFA8E41213474FC59CCB6 /* Products */,
+				3E8D84B836E2823EDBF31D8ED467090B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90905EBF9A1A5E367318F7E9F8D41DD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4AC4C5446E791B9BBD96A3A45B260E /* Info.plist */,
+				196FC76504E68E687B982375096267D6 /* TTGTagCollectionView.modulemap */,
+				2446212A7EC1332BC81D993567EA63FB /* TTGTagCollectionView.xcconfig */,
+				41183B675F22D61C23EAAEACBDC672FE /* TTGTagCollectionView-dummy.m */,
+				FB313A8A7E656EE9FDDE926E2CE8BA41 /* TTGTagCollectionView-prefix.pch */,
+				E72875CA1A4E1507624F639A57401DBF /* TTGTagCollectionView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTGTagCollectionView";
+			sourceTree = "<group>";
+		};
+		BA93A82241A3669FD1B479BBAC3D6DF1 /* TTGTagCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4BC3DD5683AB9047AA59F8DD087DCDA9 /* TTGTagCollectionView.h */,
+				7EDE97FE929C088810115D6D96C473E5 /* TTGTagCollectionView.m */,
+				2F40D9F195A1F36646E534F6840D04BC /* TTGTextTagCollectionView.h */,
+				58DEF57960C98EDA01DE904D64F07B9A /* TTGTextTagCollectionView.m */,
+				90905EBF9A1A5E367318F7E9F8D41DD4 /* Support Files */,
+			);
+			name = TTGTagCollectionView;
+			path = TTGTagCollectionView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D57D44B2AEAEFA8E41213474FC59CCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80005BF7E10A2A3C44704C72472EBD4 /* Pods_RadioButtonView.framework */,
+				ACE95EB47F97FD5AA2FE1E720F3C4C45 /* TTGTagCollectionView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F6260144B05B79EFA1C95A14BB6A7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA93A82241A3669FD1B479BBAC3D6DF1 /* TTGTagCollectionView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB571E0409080693AF11929C86806CB6 /* Pods-RadioButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				6A88D08E57A08132E301B6EC3406E114 /* Info.plist */,
+				71194F720D0A60642D1D0257F877BF40 /* Pods-RadioButtonView.modulemap */,
+				4C48AD050F3B98FD9D6893249C1D055A /* Pods-RadioButtonView-acknowledgements.markdown */,
+				4928C393C52EB24CADDF51B4EF427324 /* Pods-RadioButtonView-acknowledgements.plist */,
+				FDB47B96FD56F43662AB26E14B5375DD /* Pods-RadioButtonView-dummy.m */,
+				2AC737C6909D0272D037C9AACBC80474 /* Pods-RadioButtonView-frameworks.sh */,
+				CF8488C96FE11BDAB0F6EB1CA17F6819 /* Pods-RadioButtonView-resources.sh */,
+				ED0FDD0EA83EE1D307CADB8A30F1CC66 /* Pods-RadioButtonView-umbrella.h */,
+				E231010EAFFEBBE2FD83990C79D3DB37 /* Pods-RadioButtonView.debug.xcconfig */,
+				5C5671EF95DA192763BAD9EFFAA0C859 /* Pods-RadioButtonView.release.xcconfig */,
+			);
+			name = "Pods-RadioButtonView";
+			path = "Target Support Files/Pods-RadioButtonView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		061F4874C091482B38957A2A35276F1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB46252907085E10AD31F0D18C69D29 /* Pods-RadioButtonView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BDF83514AAF68087F276230EA710DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AAAE82E47F1F9A2C66667B340D307E /* TTGTagCollectionView-umbrella.h in Headers */,
+				6A86C190B67F0B3AFF46E5EA4F44FE4D /* TTGTagCollectionView.h in Headers */,
+				D1EA4CFCE0460D88DBCC4E63542C6E46 /* TTGTextTagCollectionView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		149C894C3E5B8A7DC8F2BD928D08DD3E /* Pods-RadioButtonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724F69CBF100B1A108E293C2970B066F /* Build configuration list for PBXNativeTarget "Pods-RadioButtonView" */;
+			buildPhases = (
+				0A1218BA84FF59C3E77662B4E6BD9379 /* Sources */,
+				4D370198D0B5F7383F39BC7C9F75EDB7 /* Frameworks */,
+				061F4874C091482B38957A2A35276F1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18946C311F27BD5BB5087C81E81CD75 /* PBXTargetDependency */,
+			);
+			name = "Pods-RadioButtonView";
+			productName = "Pods-RadioButtonView";
+			productReference = C80005BF7E10A2A3C44704C72472EBD4 /* Pods_RadioButtonView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A66CA0E29EE808F1994685CD1CE605E7 /* TTGTagCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4F8007F606EBEB359B460DFB4E4947 /* Build configuration list for PBXNativeTarget "TTGTagCollectionView" */;
+			buildPhases = (
+				FD683553C483545BE3C826D3846BF0AC /* Sources */,
+				583305BBEDE403B70507751E822EFEEB /* Frameworks */,
+				48BDF83514AAF68087F276230EA710DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTGTagCollectionView;
+			productName = TTGTagCollectionView;
+			productReference = ACE95EB47F97FD5AA2FE1E720F3C4C45 /* TTGTagCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D57D44B2AEAEFA8E41213474FC59CCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149C894C3E5B8A7DC8F2BD928D08DD3E /* Pods-RadioButtonView */,
+				A66CA0E29EE808F1994685CD1CE605E7 /* TTGTagCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1218BA84FF59C3E77662B4E6BD9379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA440C606F05458849B00CBCD2EB1208 /* Pods-RadioButtonView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD683553C483545BE3C826D3846BF0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F30AC474C0BB07912EAEBE3E8624932 /* TTGTagCollectionView-dummy.m in Sources */,
+				B3956002614DDB33337186687E06463C /* TTGTagCollectionView.m in Sources */,
+				51DE1D425F4F532393B3299BAA052633 /* TTGTextTagCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18946C311F27BD5BB5087C81E81CD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGTagCollectionView;
+			target = A66CA0E29EE808F1994685CD1CE605E7 /* TTGTagCollectionView */;
+			targetProxy = D1D72C64A94FED61A51156E24D4C919B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05F6B04DA7CA2AECA0F667CC68981F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E231010EAFFEBBE2FD83990C79D3DB37 /* Pods-RadioButtonView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioButtonView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioButtonView/Pods-RadioButtonView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2816374352400CCF4C3589AF638EE0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2446212A7EC1332BC81D993567EA63FB /* TTGTagCollectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGTagCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = TTGTagCollectionView;
+				PRODUCT_NAME = TTGTagCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5295FD7A1A7B8F5DA987240AD44AE20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5671EF95DA192763BAD9EFFAA0C859 /* Pods-RadioButtonView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioButtonView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioButtonView/Pods-RadioButtonView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59BAAA687E7ADE967AC4EDB68D51C205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2446212A7EC1332BC81D993567EA63FB /* TTGTagCollectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGTagCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = TTGTagCollectionView;
+				PRODUCT_NAME = TTGTagCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4F8007F606EBEB359B460DFB4E4947 /* Build configuration list for PBXNativeTarget "TTGTagCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2816374352400CCF4C3589AF638EE0EC /* Debug */,
+				59BAAA687E7ADE967AC4EDB68D51C205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724F69CBF100B1A108E293C2970B066F /* Build configuration list for PBXNativeTarget "Pods-RadioButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F6B04DA7CA2AECA0F667CC68981F82 /* Debug */,
+				5295FD7A1A7B8F5DA987240AD44AE20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
